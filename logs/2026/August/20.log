@@ -1,0 +1,27 @@
+[2026-08-20 12:48:08] INFO: Cliente conectado: rGSc3bSM1TrxC8zqAAAB
+[2026-08-20 12:48:30] INFO: room_id::1-1
+[2026-08-20 12:49:30] INFO: Cliente conectado: SxM7cj-g6bKo3uZFAAAD
+[2026-08-20 12:49:34] INFO: room_id::1-2
+[2026-08-20 12:49:56] INFO: Cliente conectado: TsEpiGfJsvcTedCbAAAF
+[2026-08-20 12:49:56] INFO: room_id::1-2
+[2026-08-20 12:50:11] INFO: Cliente conectado: 0ECaK6ZGHpWQQq9rAAAH
+[2026-08-20 12:50:13] INFO: room_id::1-2
+[2026-08-20 12:53:40] INFO: Servidor escuchando en el puerto 3000
+[2026-08-20 12:53:51] INFO: Cliente conectado: GXqUJXVIfSrgt4vQAAAB
+[2026-08-20 12:53:55] INFO: Cliente conectado: -KeNU2_ULIl0aABzAAAD
+[2026-08-20 12:54:15] INFO: room_id::1-2
+[2026-08-20 12:54:23] INFO: room_id::1-2
+[2026-08-20 12:56:30] INFO: room_id::1-2
+[2026-08-20 12:56:34] INFO: room_id::1-2
+[2026-08-20 12:57:33] INFO: Servidor escuchando en el puerto 3000
+[2026-08-20 12:57:42] INFO: Cliente conectado: Th1ssQnxmg2w-4NLAAAB
+[2026-08-20 12:57:46] INFO: Cliente conectado: rTNsaGg9Lj-wWAgHAAAD
+[2026-08-20 12:58:26] INFO: room_id::1-2
+[2026-08-20 12:58:30] INFO: room_id::1-2
+[2026-08-20 12:58:54] INFO: Servidor escuchando en el puerto 3000
+[2026-08-20 12:58:58] INFO: Cliente conectado: Us9UJW8twnKkBC0VAAAB
+[2026-08-20 12:59:01] INFO: Cliente conectado: 9nQtiV4BlhAjvi7oAAAD
+[2026-08-20 12:59:08] INFO: room_id::1-2
+[2026-08-20 12:59:12] INFO: room_id::1-2
+[2026-08-20 12:59:28] INFO: mensaje de 1 a room 1-2: abre la puerta
+[2026-08-20 13:00:55] INFO: mensaje de 2 a room 1-2: puerta abierta

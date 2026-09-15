@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 90
+    },
+    "auditLog": "H:\\socket-io-locker-app\\logs\\.c1e8dcd0bc2f16af4dfa1a44776a58ffe4fff20e-audit.json",
+    "files": [
+        {
+            "date": 1787241687045,
+            "name": "H:\\socket-io-locker-app\\logs\\2026/August/20.log",
+            "hash": "cf7930bf18afd2d4c519c67902e0a3f83f54ce013cda77f40d1893fa790888c9"
+        }
+    ],
+    "hashType": "sha256"
+}

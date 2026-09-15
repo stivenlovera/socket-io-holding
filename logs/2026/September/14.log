@@ -1,0 +1,67 @@
+[2026-09-14 11:38:36] INFO: Cliente conectado: 5uux3-rv_CUuZSGbAAAV
+[2026-09-14 11:38:37] INFO: room_id::1-1
+[2026-09-14 11:39:17] INFO: Cliente conectado: lRnVI9HJFdq1syMHAAAX
+[2026-09-14 11:39:17] INFO: room_id::1-1
+[2026-09-14 11:48:58] INFO: Cliente conectado: Qb0GwI8wL3omNaqBAAAZ
+[2026-09-14 11:48:58] INFO: mensaje de 1 a room 1-1: 1
+[2026-09-14 11:52:13] INFO: Cliente conectado: 4KLxHkuzgmreeDltAAAb
+[2026-09-14 11:52:14] INFO: mensaje de 1 a room 1-1: 1
+[2026-09-14 11:53:33] INFO: Cliente conectado: 7dI74CuoRBtTa7KkAAAd
+[2026-09-14 11:53:33] INFO: mensaje de 1 a room 1-1: 1
+[2026-09-14 11:54:27] INFO: Servidor escuchando en el puerto 3000
+[2026-09-14 11:54:28] INFO: Servidor escuchando en el puerto 3000
+[2026-09-14 11:54:30] INFO: Cliente conectado: Xr_0j5GGGDE7shewAAAB
+[2026-09-14 11:54:30] INFO: room_id::1-1
+[2026-09-14 11:54:41] INFO: Cliente conectado: 1maZzLCR55XqfVf1AAAD
+[2026-09-14 11:54:42] INFO: mensaje de 1 a room 1-1: 1
+[2026-09-14 11:55:16] INFO: Cliente conectado: clUSvnL2RHbdC_K8AAAF
+[2026-09-14 11:55:16] INFO: mensaje de undefined a room undefined: undefined
+[2026-09-14 11:55:24] INFO: Cliente conectado: ycZKCO8h1ZEjvqhnAAAH
+[2026-09-14 11:55:24] INFO: mensaje de undefined a room undefined: undefined
+[2026-09-14 12:01:48] INFO: Cliente conectado: qu8Ory7WwJgDG5mbAAAJ
+[2026-09-14 12:01:48] INFO: room_id::1-1
+[2026-09-14 12:02:01] INFO: Cliente conectado: o5K1m-n110GMwVLOAAAL
+[2026-09-14 12:02:01] INFO: room_id::1-1
+[2026-09-14 12:32:40] INFO: Cliente conectado: 0wi904RXXCQx_kMXAAAN
+[2026-09-14 12:32:40] INFO: room_id::1-1
+[2026-09-14 12:50:36] INFO: Cliente conectado: rHYBohG1Zvqp-_FJAAAP
+[2026-09-14 12:50:36] INFO: room_id::1-1
+[2026-09-14 17:41:32] INFO: Servidor escuchando en el puerto 3000
+[2026-09-14 17:41:36] INFO: Cliente conectado: IHJUwSK8BdjBFo6yAAAB
+[2026-09-14 17:41:36] INFO: room_id::1-1
+[2026-09-14 18:24:47] INFO: Cliente conectado: n0H1SHhLyfuKuKnFAAAE
+[2026-09-14 18:24:47] INFO: room_id::1-1
+[2026-09-14 18:26:03] INFO: Cliente conectado: HfdyhjNIb6yDqyNNAAAG
+[2026-09-14 18:26:03] INFO: room_id::1-1
+[2026-09-14 18:27:27] INFO: Cliente conectado: PWyU5BAdM1SSbbdCAAAI
+[2026-09-14 18:27:27] INFO: room_id::1-1
+[2026-09-14 18:38:53] INFO: Cliente conectado: SklyNyUqM-gZo9B5AAAK
+[2026-09-14 18:38:53] INFO: room_id::1-1
+[2026-09-14 20:34:34] INFO: Cliente conectado: 0CLqm0wHVziqLUgqAAAM
+[2026-09-14 20:34:34] INFO: room_id::1-1
+[2026-09-14 20:46:23] INFO: Cliente conectado: oKCXj8uj8KOxMfmgAAAO
+[2026-09-14 20:46:23] INFO: mensaje de 1 a room 1-1: 1
+[2026-09-14 20:47:03] INFO: Cliente conectado: bcNz2LbbSc4c1JWwAAAQ
+[2026-09-14 20:47:03] INFO: room_id::1-1
+[2026-09-14 20:48:28] INFO: Cliente conectado: kapVQz-hirN1D6gjAAAS
+[2026-09-14 20:48:28] INFO: room_id::1-1
+[2026-09-14 20:48:43] INFO: Cliente conectado: 9T6rq-e9y6NgAi1GAAAU
+[2026-09-14 20:48:44] INFO: mensaje de 1 a room 1-1: 1
+[2026-09-14 20:52:43] INFO: Cliente conectado: HR47yABMaIomMRXvAAAW
+[2026-09-14 20:52:44] INFO: mensaje de 1 a room 1-1: 22
+[2026-09-14 20:57:00] INFO: Cliente conectado: Gl7DeLxUI4jOuMDIAAAY
+[2026-09-14 20:57:00] INFO: room_id::1-1
+[2026-09-14 20:57:01] INFO: Cliente conectado: rHTDEk5d2kYSzCcjAAAa
+[2026-09-14 20:57:01] INFO: mensaje de 1 a room 1-1: 19
+[2026-09-14 21:03:36] INFO: Cliente conectado: VCp4JjnqKLN0x8ZBAAAc
+[2026-09-14 21:03:36] INFO: room_id::1-1
+[2026-09-14 21:04:09] INFO: Cliente conectado: MblmaaFS_HAAfH-rAAAe
+[2026-09-14 21:04:09] INFO: room_id::2-3
+[2026-09-14 21:08:13] INFO: Cliente conectado: qaErWVgid-iMJtQcAAAg
+[2026-09-14 21:08:13] INFO: mensaje de 1 a room 1-1: 1
+[2026-09-14 21:08:30] INFO: Cliente conectado: S_fM04CXnlX3v5hoAAAi
+[2026-09-14 21:08:30] INFO: room_id::2-3
+[2026-09-14 21:08:43] INFO: Cliente conectado: c3Rn6J7qC_qyUzmwAAAk
+[2026-09-14 21:08:44] INFO: mensaje de 1 a room 1-1: 1
+[2026-09-14 21:08:59] INFO: Cliente conectado: bwdfnW9nrNimqZm4AAAm
+[2026-09-14 21:08:59] INFO: mensaje de 1 a room 1-1: 1

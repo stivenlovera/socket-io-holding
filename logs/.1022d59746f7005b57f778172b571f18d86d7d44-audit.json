@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 90
+    },
+    "auditLog": "F:\\socket-io-locker-app\\logs\\.1022d59746f7005b57f778172b571f18d86d7d44-audit.json",
+    "files": [
+        {
+            "date": 1788992089609,
+            "name": "F:\\socket-io-locker-app\\logs\\2026/September/09.log",
+            "hash": "cb05ed621007d270c861a6027f8840e943ba0e77f5c8690c313cbf7f7cfca1e5"
+        },
+        {
+            "date": 1789016696749,
+            "name": "F:\\socket-io-locker-app\\logs\\2026/September/10.log",
+            "hash": "9f17832a9d60d20040931ab493a29af97a68f7ac2ecd6a6016a1675360fc5bde"
+        },
+        {
+            "date": 1789147655703,
+            "name": "F:\\socket-io-locker-app\\logs\\2026/September/11.log",
+            "hash": "0190d541034476ef5287a5abbbf31ca25ec239d145cad307aab562f1e2da255b"
+        },
+        {
+            "date": 1789187746072,
+            "name": "F:\\socket-io-locker-app\\logs\\2026/September/12.log",
+            "hash": "4179d6dbb3366bfe7dc3a18210f9d92d3c8bb5d515dc8151872f16d565a98f70"
+        },
+        {
+            "date": 1789400316475,
+            "name": "F:\\socket-io-locker-app\\logs\\2026/September/14.log",
+            "hash": "4d96134967f43bcb0d2ec78315662c0c0ac197f5193f4dced72771c16d4324ba"
+        }
+    ],
+    "hashType": "sha256"
+}
