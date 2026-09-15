@@ -65,3 +65,26 @@
 [2026-09-14 21:08:44] INFO: mensaje de 1 a room 1-1: 1
 [2026-09-14 21:08:59] INFO: Cliente conectado: bwdfnW9nrNimqZm4AAAm
 [2026-09-14 21:08:59] INFO: mensaje de 1 a room 1-1: 1
+[2026-09-14 21:09:30] INFO: Servidor escuchando en el puerto 3000
+[2026-09-14 21:09:31] INFO: Cliente conectado: UYqwow0SivvSMmv1AAAB
+[2026-09-14 21:09:31] INFO: room_id::2-3
+[2026-09-14 21:10:48] INFO: Cliente conectado: 16hf4Eu1EdvRJ60NAAAD
+[2026-09-14 21:10:48] INFO: mensaje de 1 a room 1-1: 1
+[2026-09-14 21:19:59] INFO: Cliente conectado: -N1RyBgVfeD4QNzaAAAF
+[2026-09-14 21:19:59] INFO: mensaje de 1 a room 2-3: 2
+[2026-09-14 21:20:22] INFO: Cliente conectado: LuD-Uun1-TkUm0SrAAAH
+[2026-09-14 21:20:23] INFO: mensaje de 1 a room 1-1: 19
+[2026-09-14 21:24:50] INFO: Cliente conectado: WPMjLakVxpmBooNDAAAJ
+[2026-09-14 21:24:50] INFO: mensaje de 1 a room 2-3: 19
+[2026-09-14 21:28:24] INFO: Cliente conectado: c2LRLoDxmxPJ7E1oAAAL
+[2026-09-14 21:28:24] INFO: room_id::2-3
+[2026-09-14 21:30:46] INFO: Cliente conectado: NNWlpq_1lbqYPrLlAAAN
+[2026-09-14 21:30:46] INFO: room_id::2-3
+[2026-09-14 21:31:05] INFO: Cliente conectado: Ke0iGG-GaqM5vHzSAAAP
+[2026-09-14 21:31:05] INFO: mensaje de 1 a room 2-3: 2
+[2026-09-14 21:33:39] INFO: Cliente conectado: qpPDh_cji0YY9W4WAAAR
+[2026-09-14 21:33:39] INFO: room_id::2-3
+[2026-09-14 21:36:52] INFO: Cliente conectado: EK1KOqu549G8M9w3AAAT
+[2026-09-14 21:36:52] INFO: room_id::2-3
+[2026-09-14 21:37:27] INFO: Cliente conectado: 4PI8mdoLBIHy-vGgAAAV
+[2026-09-14 21:37:28] INFO: mensaje de 1 a room 2-3: 2
