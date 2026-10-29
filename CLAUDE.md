@@ -13,11 +13,16 @@ Environment variables read at runtime: `PORT`, `LOG_LEVEL` (default `info`), `NO
 
 ## Architecture
 
-A minimal Socket.IO chat relay server. Two source files:
+A minimal Socket.IO relay between the Laravel backend (`../locker_app_web`) and the Flutter locker tablets (`../locker_app`). It holds no state and does no auth. Two source files:
 
 - [src/index.ts](src/index.ts) — Express app wrapped in a Node `http` server with a Socket.IO `Server` (CORS open to `*`). Express serves only a `GET /` health check; all real work is Socket.IO events:
-  - `unir-a-sala` `{ user_id, recipient_id }` — derives a deterministic room id by sorting the two ids and joining with `-`, then joins that room. Both participants independently joining produce the same room.
-  - `send_message` `{ room_id, message, user_id }` — relays `mensaje` `{ message, user_id }` to everyone else in the room via `socket.to(room_id)` (sender excluded).
+  - `join` `{ locker_id, building_id }` — sent by a tablet on connect. Room id is `[locker_id, building_id].sort().join('-')`, then the socket joins it.
+  - `open_door` `{ room_id, message, locker_id }` — sent by Laravel (`DoorService::openDoor` via `sendSocketMessage()` in `app/helpers.php`, which connects, emits once and disconnects). Relayed as `door` `{ message }` (message = door id) to the room, sender excluded.
+  - `update_data_base` `{ room_id, message, locker_id }` — sent by Laravel (`DoorService::updateDatabase`). Relayed as `update_data` `{ message }`; the tablet then re-syncs via `GET /api/database`.
+
+### Room id contract
+
+`join` sorts the ids with JS default `sort()` (lexicographic string order), while Laravel builds `room_id` as `"{locker_id}-{building_id}"` unsorted. They only match when `locker_id` sorts before `building_id` as a string (e.g. locker `5`, building `3` → tablet joins `3-5`, Laravel targets `5-3`, door never opens). Any change to room naming must be made here and in `DoorService` together.
 - [src/logger.ts](src/logger.ts) — Winston logger, default export used everywhere instead of `console`. Writes to `logs/YYYY/MMMM/DD.log` through `winston-daily-rotate-file` (zipped archives, 20m/file, 90d retention). Console transport is added only when `NODE_ENV !== "production"`.
 
 ### Windows logging caveat
@@ -26,5 +31,5 @@ A minimal Socket.IO chat relay server. Two source files:
 
 ## Notes
 
-- Client/server messages use Spanish event names and log strings (`unir-a-sala`, `mensaje`, "Cliente conectado"). Match this convention.
-- Not a git repository and no README. `package.json` `type` is `commonjs`; `logger.ts` relies on `__dirname`.
+- Event names are an English/snake_case contract shared with Laravel and the Flutter app (`join`, `open_door`, `door`, `update_data_base`, `update_data`) — renaming one means changing the other projects too. Log strings are in Spanish ("Cliente conectado").
+- No README. `package.json` `type` is `commonjs`; `logger.ts` relies on `__dirname`.
